@@ -1,4 +1,4 @@
-import Music from './Music.lpg'
+import Music from './Music.jpg'
 
 
 export const assets = {

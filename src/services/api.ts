@@ -1,5 +1,6 @@
 
 import { toast } from 'sonner';
+import { assets } from './../assets/assets'; // Adjust the import path as necessary
 
 // Define event type
 export interface Event {
@@ -19,7 +20,7 @@ export interface Event {
 const mockEvents: Event[] = [
   {
     id: '1',
-    title: 'Annual Tech Symposium',
+    title: 'Career Fair 2025',
     description: 'Join us for a day of tech talks, workshops, and networking opportunities with industry professionals.',
     date: '2025-06-15',
     time: '09:00 AM',
